@@ -1,0 +1,6 @@
+No TDD primeiramente é preciso escrever os testes funcionais.
+Rodamos o teste e caso ele falhe devemos ir para os testes de unidade.
+Escreve-se o teste e rodamos. Caso não rode, alteramos minimamente o código e repetimos o processo até o teste passar.
+Uma vez que o teste de unidade tenha passado, verificamos se é preciso realizar alguma fatoração. Se sim, refatoramos e rodamos novamente os testes de unidade (repete-se o passo anterior). É preciso garantir que a refatoração não irá quebrar nada.
+No momento em que todos os testes unitários estão escritos e estão rodando 100%, voltamos para o teste funcional e rodamos ele. Caso o teste funcional ainda esteja falhando, voltamos para o ciclo anterior e repetimos o processo, até que os testes funcionais passem.
+No momento em que o teste funcional passa, verificamos a necessidade de refactoring e caso sim, refatoramos e repetimos todo o processo.
